@@ -34,7 +34,7 @@ L’application est structurée en plusieurs composants :
 
 - CryptoWorker : gestion du chiffrement/déchiffrement
 
-- Stockage sécurisé des clés : via keyring
+- Stockage sécurisé des clés : via `keyring`
 
 Cette séparation permet :
 
@@ -59,14 +59,13 @@ Cette séparation permet :
 ---
 
 ## ▶️ Test & Installation
-  1. **Télécharger le projet :**
-  Télécharger le fichier ZIP depuis GitHub et extraire le dossier
+  1. Télécharger le projet en fichier ZIP depuis GitHub et extraire le dossier
 
-  1. Installer Python >= 3.8.
-  2. Ouvrir une invite de commande.
-   3. Se déplacer dans le dossier racine du TP :
+  1. Installer Python >= 3.8
+  2. Ouvrir une invite de commande
+   3. Se déplacer dans le dossier racine du projet :
       ```sh
-         cd <your_base_path>/file_encrypt
+         cd <your_base_path>/Gestionnaire_de_fichiers_chiffres-main
       ```
    4. Vérifier que Python est correctement installé et que vous avez une version adéquate :
       ```sh
