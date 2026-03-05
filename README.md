@@ -1,4 +1,4 @@
-# Gestionnaire_de_fichiers_chiffres
+# Application de chiffrement de fichiers
 
 Application de gestion de fichiers chiffrés permettant de chiffrer et déchiffrer des fichiers en utilisant **AES-256 en mode CBC** et d’assurer leur intégrité grâce à un **HMAC-SHA256**.
 
@@ -65,7 +65,7 @@ Cette séparation permet :
   2. Ouvrir une invite de commande
    3. Se déplacer dans le dossier racine du projet :
       ```sh
-         cd <your_base_path>/Gestionnaire_de_fichiers_chiffres-main
+         cd <your_base_path>/gestionnaire_fichiers_chiffres-main
       ```
    4. Vérifier que Python est correctement installé et que vous avez une version adéquate :
       ```sh
